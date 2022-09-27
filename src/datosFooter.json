@@ -1,0 +1,82 @@
+{
+    "Gef":{
+        "social":[
+            {
+                "ruta":"https://www.facebook.com/gef/",
+                "logo":"https://www.gef.co/GefSAS/images/footer/ICONOS-REDES-FOOTER-02.svg"
+            },
+            {
+                "ruta":"https://www.instagram.com/geffrance/",
+                "logo":"https://www.gef.co/GefSAS/images/footer/ICONOS-REDES-FOOTER-07.svg"
+            },
+            {
+                "ruta":"https://www.youtube.com/c/geffranceoficial/",
+                "logo":"https://www.gef.co/GefSAS/images/footer/ICONOS-REDES-FOOTER-11.svg"
+            },
+            {
+                "ruta":"https://twitter.com/gef_france",
+                "logo":"https://www.gef.co/GefSAS/images/footer/ICONOS-REDES-FOOTER-06.svg"
+            }
+        ],
+        "linea":"Línea de atención al cliente : 01 8000 517 536 o  (604) 540 73 38 | servicioalcliente@gef.com.co",
+        "marca":"GEF® Una Marca de CRYSTAL S.A.S - NIT 890.901.672-5 - Notificación judicial:impuestos@crystal.com.co - Carrera 48 Nro 52 sur 81 Sabaneta - Antioquia - Colombia"
+    },
+    "BabyF":{
+        "social":[
+            {
+                "ruta":"https://www.instagram.com/babyfreshoficial/",
+                "logo":"https://www.babyfresh.co/BabyFreshSAS/images/footer/FOOTER-BF-REDES-PAGO_01.png"
+            },
+            {
+                "ruta":"https://www.facebook.com/Babyfreshoficial/",
+                "logo":"https://www.babyfresh.co/BabyFreshSAS/images/footer/FOOTER-BF-REDES-PAGO_02.png"
+            },
+            {
+                "ruta":"https://co.pinterest.com/babyfreshcol/",
+                "logo":"https://www.babyfresh.co/BabyFreshSAS/images/footer/FOOTER-BF-REDES-PAGO_03.png"
+            },
+            {
+                "ruta":"https://www.youtube.com/user/babyfreshcolombia",
+                "logo":"https://www.babyfresh.co/BabyFreshSAS/images/footer/FOOTER-BF-REDES-PAGO_04.png"
+            },
+            {
+                "ruta":"https://vm.tiktok.com/ZMNUS2rrT/",
+                "logo":"https://www.babyfresh.co/BabyFreshSAS/images/footer/FOOTER-BF-REDES-PAGO_06.png"
+            }
+        ],
+        "linea":"Línea de atención al cliente : 01 8000 517 536 o  (604) 540 73 38 | servicioalcliente@babyfresh.com.co",
+        "marca":"Babyfresh® Una Marca de CRYSTAL S.A.S - NIT 890.901.672-5 - Notificacion judicial:impuestos@crystal.com.co - Carrera 48 Nro 52 sur 81 Sabaneta - Antioquia - Colombia"
+    },
+    "PuntoB":{
+        "social":[
+            {
+                "ruta":"https://www.instagram.com/puntoblancooficial/",
+                "logo":"https://www.puntoblanco.co/PuntoBlancoSAS/images/footer/icon-instagram.svg"
+            },
+            {
+                "ruta":"https://www.facebook.com/vivepuntoblanco/",
+                "logo":"https://www.puntoblanco.co/PuntoBlancoSAS/images/footer/icon-facebook.svg"
+            },
+            {
+                "ruta":"https://www.youtube.com/user/puntoblancooficial",
+                "logo":"https://www.puntoblanco.co/PuntoBlancoSAS/images/footer/icon-yt.svg"
+            }
+        ],
+        "linea":"Línea de atención al cliente : 01 8000 517 536 o (604) 540 73 38 | servicioalcliente@puntoblanco.com.co",
+        "marca":"PUNTO BLANCO® Una Marca de CRYSTAL S.A.S - NIT 890.901.672-5 - Notificacion judicial:impuestos@crystal.com.co - Carrera 48 Nro 52 sur 81 Sabaneta - Antioquia - Colombia"
+    },
+    "Galax":{
+        "social":[
+            {
+                "ruta":"https://www.facebook.com/galaxcolombia/",
+                "logo":"https://www.galax.co/GalaxSAS/images/footer/icon-facebook.png"
+            },
+            {
+                "ruta":"https://www.instagram.com/galaxoficial/",
+                "logo":"https://www.galax.co/GalaxSAS/images/footer/icon-instagram.png"
+            }
+        ],
+        "linea":"Línea de atención al cliente : 01 8000 517 536 o (604) 540 73 38 | servicioalcliente@galax.com.co",
+        "marca":"Galax® Una Marca de CRYSTAL S.A.S - NIT 890.901.672-5 Notificacion judicial:impuestos@crystal.com.co - Carrera 48 Nro 52 sur 81 Sabaneta - Antioquia - Colombia"
+    }
+}

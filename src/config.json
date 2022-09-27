@@ -1,0 +1,58 @@
+{
+  "Api": {
+    "Interna": "http://pvp.crystal.com.co/apps/2precios/api/Referencia/Consultar",
+    "Ecommerce1": "https://www.gef.co/search/resources/api/v2/products?catalogId=10001&contractId=4000000000000000503&partNumber=",
+    "Ecommerce2": "&storeId=10151&langId=-24"
+  },
+  "BodyApiE": {
+    "Usuario": "cpsUsr",
+    "Clave": "J3yb3ChhuE7_jsFK",
+    "IP": "10.40.111"
+  },
+  "ApiLogin": {
+    "url": "https://www.auth.gef.co/wcs/resources/store/10151/loginidentity?updateCookies=true",
+    "body": {
+      "logonId": "wcsadmin",
+      "logonPassword": "wcs02admin"
+    }
+  },
+  "ApiAddUser": {
+    "url": "https://www.auth.gef.co/wcs/resources/store/10151/person/ext"
+  },
+  "Tiendas": {
+    "10151": {
+      "nombre": "Gef",
+      "url": "https://www.gef.co"
+    },
+    "10651": {
+      "nombre": "Punto Blanco",
+      "url": "https://www.puntoblanco.co"
+    },
+    "11151": {
+      "nombre": "Baby Fresh",
+      "url": "https://www.babyfresh.co"
+    },
+    "11701": {
+      "nombre": "Galax",
+      "url": "https://www.galax.co"
+    }
+  },
+  "usuarios": [
+    {
+      "id": "1234",
+      "correo": "user1@gmail.com",
+      "nombre": "user uno",
+      "usuario": "user1",
+      "clave1": "1234",
+      "clave": "81dc9bdb52d04dc20036dbd8313ed055"
+    },
+    {
+      "id": "5678",
+      "correo": "user2@gmail.com",
+      "nombre": "user dos",
+      "usuario": "user2",
+      "clave1": "5678",
+      "clave": "674f3c2c1a8a6f90461e8a66fb5550ba"
+    }
+  ]
+}

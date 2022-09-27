@@ -1,0 +1,42 @@
+{
+    "5122897": {
+        "productos": [
+            {
+                "imagen": "https://www.gef.co/dx/api/dam/custom/2020/GEF/ES-CO/Imagenes/Hombres/ACCESORIOS/Feli_Tapabocas_Adultos_Set_X5/105x133/Accesorio-Hombre-Feli-Tapabocas-Adultos-Set-X5-Surtido-9900-Frente-Gef.jpg",
+                "nombre": "Feli tapabocas adultos set x5",
+                "sku": "7703081628707",
+                "talla": "unica",
+                "color": "std 9900",
+                "disponibilidad": "Disponible",
+                "cantidad": "1",
+                "precio": "$39990"
+            },
+            {
+                "imagen": "https://www.gef.co/dx/api/dam/custom/2020/GEF/ES-CO/Imagenes/Mujeres/ACCESORIOS/Lori_Tapabocas_Adultos_Set_X5/105x133/Accesorio-Mujer-Lori-Tapabocas-Adultos-Set-X5-Surtido-9900-Frente-Gef.jpg",
+                "nombre": "Lori tapabocas adultos set x5",
+                "sku": "7703081628684",
+                "talla": "unica",
+                "color": "std 9900",
+                "disponibilidad": "Disponible",
+                "cantidad": "1",
+                "precio": "$39990"
+            }
+        ],
+        "detalleEnvio": {
+            "nombre": "Jennifer Chacón",
+            "celular": "3017127905",
+            "direccion": "CALLE 48C # 97A-39",
+            "departamento": "Antioquia",
+            "ciudad": "Medellín",
+            "pais": "Colombia"
+        },
+        "metodoEnvio": "Despacho a domicilio",
+        "informacionPago": {
+            "subtotalPedido": "$89026",
+            "iva": "$4749",
+            "flete": "$3950",
+            "ivaFlete": "$0",
+            "total": "$97725"
+        }
+    }
+}

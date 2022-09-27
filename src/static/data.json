@@ -1,0 +1,26 @@
+[
+    {
+        "description": "Cra. 81 ## 37 - 100, Medellín, Antioquia",
+        "name": "GEF EXITO LAURELES",
+        "geometry": [
+            6.245960,
+            -75.602424
+        ]
+    },
+    {
+        "description": "Calle 30A # 82A - 26 Centro Comercial Los Molinos - Local 2033, Medellín, Antioquia",
+        "name": "GEF CC MOLINOS",
+        "geometry": [
+            6.232410,
+            -75.605266
+        ]
+    },
+    {
+        "description": "Envigado, Antioquia",
+        "name": "GEF VIVA ENVIGADO",
+        "geometry": [
+            6.174991,
+            -75.591604
+        ]
+    }
+]

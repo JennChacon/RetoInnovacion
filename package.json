@@ -1,0 +1,68 @@
+{
+  "name": "reto-barcode",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.3.1",
+    "@mui/material": "^5.3.1",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
+    "boostrap": "^2.0.0",
+    "bootstrap": "^5.2.0",
+    "leaflet": "^1.6.0",
+    "md5": "^2.3.0",
+    "quagga": "^0.12.1",
+    "react": "^17.0.2",
+    "react-alert": "^7.0.3",
+    "react-barcode-reader": "^0.0.2",
+    "react-bootstrap": "^2.1.2",
+    "react-dom": "^17.0.2",
+    "react-google-maps": "^9.4.5",
+    "react-leaflet": "^3.2.5",
+    "react-material-ui-carousel": "^3.1.1",
+    "react-qr-reader": "^0.2.3",
+    "react-qr-scanner": "^0.0.10",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "5.0.0",
+    "react-slick": "^0.28.1",
+    "react-spring": "^9.4.3",
+    "reactstrap": "^9.0.1",
+    "recompose": "^0.2.2",
+    "simple-react-google-maps": "^1.1.0",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^8.0.6",
+    "universal-cookie": "^4.0.4",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.7.9"
+  }
+}

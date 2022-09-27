@@ -1,0 +1,665 @@
+.centrar {
+    margin-top: 100px;
+    opacity: 5%;
+}
+
+.oculto{
+    display: none;
+}
+
+
+/* -----------AQUI------------ */
+
+
+@font-face{
+  font-family: 'Pangram-Bold';
+  src: url(/static/media/Pangram-Bold.cda477ef.otf);
+}
+
+@font-face{
+  font-family: 'Pangram-Regular';
+  src: url(/static/media/Pangram-Regular.6c266f52.otf);
+}
+
+
+@font-face{
+  font-family: 'Bariol-Bold';
+  src: url(/static/media/bariol_bold-webfont.e37416d7.ttf);
+}
+
+@font-face{
+  font-family: 'Bariol-Regular';
+  src: url(/static/media/bariol_regular-webfont.fe4c1a4b.ttf);
+}
+
+@font-face{
+  font-family: 'Gotham-Bold';
+  src: url(/static/media/GothamBold.db33e70b.ttf);
+}
+
+@font-face{
+  font-family: 'Gotham-Medium';
+  src: url(/static/media/GothamBookRegular.a563635d.otf);
+}
+
+@font-face{
+  font-family: 'Poppins-Bold';
+  src: url(/static/media/Poppins-SemiBold.b0b3d360.otf);
+}
+
+@font-face{
+  font-family: 'Poppins-Regular';
+  src: url(/static/media/Poppins-Regular.de2dd933.otf);
+}
+
+.fuente{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.fuenteHijo{
+  position: absolute;
+  bottom: 0;
+}
+
+.fuente .boton{
+  padding: 5px 12px;
+  margin: 0;
+}
+
+.fuente .botonLink{
+  text-transform: inherit;
+  padding: 0;
+  color: #4c4c4c;
+  text-decoration: underline;
+}
+
+.fuente .tamanioMapa{
+  height: 480px;
+}
+
+.fuente .social{
+  margin-top: 30px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  justify-content: center;
+  padding: 2;
+}
+
+.fuente .linea{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+}
+.estiloInicio{
+    padding: '5% 5% 5% 5%';
+    transform: 'translate(-50%, -50%)';
+    background-color: 'background.paper';
+    border: '2px solid #b1b1b1';
+    border-radius: '20px';
+    box-shadow: 24;
+}
+
+.fuente .tamanioLetraTexto{
+  font-size: 18px;
+}
+.fuente .tamanioLetraTitulo{
+  font-size: 22px;
+}
+.fuente .tamanioLetraNav{
+  font-size: 15px;
+}
+
+/* botón favoritos borde */
+.fuente .No-Me-Gusta{
+  color: #000000;
+  margin-left: 233px;
+  margin-top: -45px;
+}
+
+.fuente .botonFavorito{
+  border: 2px solid rgb(255, 255, 255);
+  background-color: white;
+  color: rgb(255, 0, 0);
+  box-shadow: 0px 0px 6px grey;
+}
+
+.fuente .botonFavorito:hover{
+  border: 2px solid rgb(255, 255, 255);
+  background-color: white;
+  color: rgb(255, 0, 0);
+  box-shadow: 0px 0px 6px grey;
+}
+
+.fuente .Me-Gusta{
+  margin-left: 180px;
+  margin-top: -30px;
+}
+/* BABY FRESH */
+
+.fuente .BabyF .tipoLetraTitulo{
+  font-family: 'Bariol-Bold';
+}
+
+.fuente .BabyF .tipoLetraTexto{
+  font-family: 'Bariol-Regular';
+}
+
+.fuente .BabyF .color{
+  color: #88b7ea;
+}
+.fuente .BabyF .bgColor{
+  background-color: #88b7ea;
+}
+
+.fuente .BabyF .tamanioBoton{
+  font-size: 16px;
+  padding: 6px 7px;
+}
+
+.fuente .BabyF td p{
+  font-family: 'Bariol-Regular';
+}
+
+.fuente .BabyF .formulario label{
+  font-family: 'Bariol-Regular';
+}
+
+.fuente .BabyF .formulario input{
+  font-family: 'Bariol-Regular';
+}
+
+div div.BoxMensajes.BabyF .tituloMensaje{
+  color: #88b7ea;
+  font-family: 'Bariol-Bold';
+}
+
+div div.BoxMensajes.BabyF .botonMensaje{
+  color: #4c4c4c;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-size: large;
+  font-family: 'Bariol-Regular';
+}
+
+.BabyF.botonCerrarSesion{
+  color: #4c4c4c;
+  font-size: large;
+  text-transform: capitalize;
+  font-family: 'Bariol-Regular';
+}
+
+div div.BoxMensajes.BabyF .textoMensaje{
+  font-family: 'Bariol-Regular';
+  font-size: 15px;
+}
+
+div div.BoxMensajes.BabyF .botonError{
+  font-size: medium;
+  background-color: #88b7ea;
+  font-family: 'Bariol-Bold';
+}
+
+/* GEF */
+
+.fuente .Gef .bgColor{
+  background-color: #000000;
+}
+.fuente .Gef .tipoLetraTitulo{
+  font-family: 'Pangram-Bold';
+}
+
+.fuente .Gef .tipoLetraTexto{
+  font-family: 'Pangram-Regular';
+}
+
+.fuente .Gef td p{
+  font-family: 'Pangram-Regular';
+}
+
+.fuente .Gef .color{
+  color: #000000;
+}
+
+.fuente .Gef .tamanioBoton{
+  font-size: 15px;
+  padding: 6px 7px;
+}
+.fuente .Gef .formulario label{
+  font-family: 'Pangram-Regular';
+}
+
+.fuente .Gef .formulario input{
+  font-family: 'Pangram-Regular';
+}
+
+div div.BoxMensajes.Gef .tituloMensaje{
+  font-family: 'Pangram-Bold';
+  font-size: 20px;
+}
+
+div div.BoxMensajes.Gef  .botonMensaje{
+  color: #4c4c4c;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-size: medium;
+  font-family: 'Pangram-Regular';
+}
+
+.Gef.botonCerrarSesion{
+  color: #4c4c4c;
+  font-size: medium;
+  text-transform: capitalize;
+  font-family: 'Pangram-Regular';
+}
+
+
+div div.BoxMensajes.Gef .textoMensaje{
+  font-family: 'Pangram-Regular';
+  font-size: 15px;
+}
+
+div div.BoxMensajes.Gef .botonError{
+  font-size: medium;
+  background-color: black;
+  font-family: 'Pangram-Bold';
+}
+
+/* PUNTO BLANCO */
+
+.fuente .PuntoB .bgColor{
+  background-color: #000000;
+}
+.fuente .PuntoB .tipoLetraTitulo{
+  font-family: 'Gotham-Bold';
+}
+
+.fuente .PuntoB .tipoLetraTexto{
+  font-family: 'Gotham-Medium';
+}
+
+.fuente .PuntoB .color{
+  color: #000000;
+}
+
+.fuente .PuntoB td p{
+  font-family: 'Gotham-Medium';
+}
+
+.fuente .PuntoB .tamanioBoton{
+  font-size: 13px;
+  padding: 6px 7px;
+}
+.fuente .PuntoB .formulario label{
+  font-family: 'Gotham-Medium';
+}
+
+.fuente .PuntoB .formulario input{
+  font-family: 'Gotham-Medium';
+}
+
+div div.BoxMensajes.PuntoB .tituloMensaje{
+  font-family: 'Gotham-Bold';
+  font-size: 20px;
+}
+
+div div.BoxMensajes.PuntoB .botonMensaje{
+  color: #4c4c4c;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-size: medium;
+  font-family: 'Gotham-Medium';
+}
+
+.PuntoB.botonCerrarSesion{
+  color: #4c4c4c;
+  font-size: medium;
+  text-transform: capitalize;
+  font-family: 'Gotham-Medium';
+}
+
+
+div div.BoxMensajes.PuntoB .textoMensaje{
+  font-family: 'Gotham-Medium';
+  font-size: 15px;
+}
+
+div div.BoxMensajes.PuntoB .botonError{
+  font-size: medium;
+  background-color: black;
+  font-family: 'Gotham-Bold';
+}
+
+
+/* GALAX */
+
+.fuente .Galax .bgColor{
+  background-color: #ff4d00;
+}
+.fuente .Galax .tipoLetraTitulo{
+  font-family: 'Poppins-Bold';
+}
+
+.fuente .Galax .tipoLetraTexto{
+  font-family: 'Poppins-Regular';
+}
+
+.fuente .Galax .color{
+  color: #ff4d00;
+}
+
+.fuente .Galax .tamanioBoton{
+  font-size: 14px;
+  padding: 6px 7px;
+}
+
+.fuente .Galax td p{
+  font-family: 'Poppins-Regular';
+}
+
+.fuente .Galax .formulario label{
+  font-family: 'Poppins-Regular';
+}
+
+.fuente .Galax .formulario input{
+  font-family: 'Poppins-Regular';
+}
+
+div div.BoxMensajes.Galax .tituloMensaje{
+  font-family: 'Poppins-Bold';
+  font-size: 20px;
+}
+
+div div.BoxMensajes.Galax  .botonMensaje{
+  color: #4c4c4c;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-size: medium;
+  font-family: 'Poppins-Regular';
+}
+.Galax.botonCerrarSesion{
+  color: #4c4c4c;
+  font-size: medium;
+  text-transform: capitalize;
+  font-family: 'Poppins-Regular';
+}
+
+div div.BoxMensajes.Galax .textoMensaje{
+  font-family: 'Poppins-Regular';
+  font-size: 15px;
+}
+
+div div.BoxMensajes.Galax .botonError{
+  font-size: medium;
+  background-color: #ff4d00;
+  font-family: 'Poppins-Regular';
+}
+
+
+/* 
+div div.BoxMensajes.BabyF .tituloMensaje{
+  color: #88b7ea;
+  font-family: 'Bariol-Bold';
+}
+
+div div.BoxMensajes.BabyF .botonMensaje{
+  color: #4c4c4c;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-size: large;
+  font-family: 'Bariol-Regular';
+}
+
+.fuente .BabyF.formulario label{
+  font-family: 'Bariol-Regular';
+}
+
+.fuente .Color.BabyF{
+  color: #88b7ea;
+}
+.tipoLetraTitulo.BabyF{
+  font-family: 'Bariol-Bold';
+}
+.fuente .BabyF.titulo{
+  font-size: 25px;
+}
+
+.fuente .BabyF.formulario input{
+  font-family: 'Bariol-Regular';
+}
+
+.fuente .BabyF.texto{
+  font-family: 'Bariol-Regular';
+  font-size: 20px;
+  color: #4c4c4c;
+}
+
+.fuente .BabyF.Slider{
+  font-family: 'Bariol-Regular';
+  font-size: 13px;
+}
+
+.fuente .BabyF.nav{
+  font-family: 'Bariol-Regular';
+  font-size: 15px;
+  color: #4c4c4c;
+}
+
+.fuente .BabyF.link{
+  font-family: 'Bariol-Regular';
+  font-size: 15px;
+  color: #4c4c4c;
+}
+
+.BabyF.botonCerrar{
+  font-family: 'Bariol-Regular';
+  font-size: 15px;
+  color: #4c4c4c;
+}
+
+.fuente .ColorBotonBabyF{
+  background-color: #88b7ea;
+  font-size: 15px;
+} */
+
+/* GEF */
+/* 
+.fuente .Gef.formulario label{
+  font-family: 'Pangram-Regular';
+}
+
+div div.BoxMensajes.Gef .tituloMensaje{
+  color: #000000;
+  font-family: 'Pangram-Bold';
+}
+
+div div.BoxMensajes.Gef .botonMensaje{
+  color: #4c4c4c;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-size: large;
+  font-family: 'Pangram-Regular';
+}
+
+.fuente .Color.Gef{
+  color: #000000;
+}
+.fuente .Gef.formulario input{
+  font-family: 'Pangram-Regular';
+}
+
+.fuente .Gef.titulo{
+  font-family: 'Pangram-Bold';
+}
+
+.fuente .Gef.texto{
+  font-family: 'Pangram-Regular';
+  font-size: 20px;
+  color: #4c4c4c;
+}
+
+.fuente .Gef.Slider{
+  font-family: 'Pangram-Regular';
+  font-size: 13px;
+}
+
+.fuente .Gef.nav{
+  font-family: 'Pangram-Regular';
+  color: #4c4c4c;
+}
+.fuente .Gef.link{
+  font-family: 'Pangram-Regular';
+  color: #4c4c4c;
+}
+
+.Gef.botonCerrar{
+  font-family: 'Pangram-Regular';
+  color: #4c4c4c;
+}
+
+.fuente .ColorBotonGef{
+  background-color: #000000;
+  font-family: 'Pangram-Bold';
+}
+
+/* PUNTO BLANCO */
+/* 
+.fuente .PuntoB.formulario label{
+  font-family: 'Gotham-Medium';
+}
+
+div div.BoxMensajes.PuntoB .tituloMensaje{
+  color: #000000;
+  font-family: 'Gotham-Bold';
+}
+
+div div.BoxMensajes.PuntoB .botonMensaje{
+  color: #4c4c4c;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-size: large;
+  font-family: 'Gotham-Medium';
+}
+.fuente .Color.PuntoB{
+  color: #000000;
+}
+
+.fuente .PuntoB.Slider{
+  font-family: 'Gotham-Medium';
+  font-size: 13px;
+}
+
+.fuente .PuntoB.titulo{
+  font-size: 18px;
+  font-family: 'Gotham-Bold';
+}
+
+.fuente .PuntoB.formulario input{
+  font-family: 'Gotham-Medium';
+}
+
+.fuente .PuntoB.texto{
+  font-family: 'Gotham-Medium';
+  letter-spacing: 1px;
+  color: #4c4c4c;
+  font-size: 17px;
+}
+
+.fuente .PuntoB.nav{
+  font-family: 'Gotham-Medium';
+  letter-spacing: 1px;
+  font-size: 15px;
+  color: #4c4c4c;
+}
+
+.fuente .PuntoB.link{
+  font-family: 'Gotham-Medium';
+  letter-spacing: 1px;
+  font-size: 13px;
+  color: #4c4c4c;
+}
+
+.PuntoB.BotonCerrar{
+  font-family: 'Gotham-Medium';
+  letter-spacing: 1px;
+  font-size: 13px;
+  color: #4c4c4c;
+}
+
+.fuente .ColorBotonPuntoB{
+  background-color: #000000;
+  font-size: 12px;
+  font-family: 'Gotham-Bold';
+}
+
+/* GALAX */
+/* 
+.fuente .Galax.formulario label{
+  font-family: 'Poppins-Regular';
+}
+
+div div.BoxMensajes.Galax .tituloMensaje{
+  color: #ff4d00;
+  font-family: 'Poppins-Bold';
+}
+
+div div.BoxMensajes.Galax .botonMensaje{
+  color:#4c4c4c;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-size: large;
+  font-family: 'Poppins-Regular';
+}
+
+.fuente .Color.Galax{
+  color: #000000;
+}
+
+.fuente .Galax.titulo{
+  font-family: 'Poppins-Bold';
+}
+
+.fuente .Galax.formulario input{
+  font-family: 'Poppins-Regular';
+}
+
+.fuente .Galax.texto{
+  font-family: 'Poppins-Regular';
+  color: #4c4c4c;
+  font-size: 18px;
+}
+
+.fuente .Galax.Slider{
+  font-family: 'Poppins-Regular';
+  font-size: 13px;
+}
+
+.fuente .Galax.nav{
+  font-family: 'Poppins-Regular';
+  color: #4c4c4c;
+  font-size: 15px;
+}
+
+.fuente .Galax.link{
+  font-family: 'Poppins-Regular';
+  color: #4c4c4c;
+  font-size: 14px;
+}
+
+.fuente .Galax.botonCerrar{
+  font-family: 'Poppins-Regular';
+  color: #4c4c4c;
+  font-size: 14px;
+}
+
+.fuente .ColorBotonGalax{
+  background-color: #ff4d00;
+  font-family: 'Poppins-Regular';
+}
+ */
